@@ -1,6 +1,6 @@
 # WP Google Tag Manager Inject 
 
-A simple WordPress plugin for inject the Google Tag Manager JS code snippet into the site <head> and the noscript snippet after the open <body> tag.
+A simple WordPress plugin for inject the Google Tag Manager JS code snippet into the site &lt;head&gt; and the &lt;noscript&gt; snippet after the open &lt;body&gt; tag.
 
 ## Usage
 
