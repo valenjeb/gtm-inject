@@ -1,0 +1,27 @@
+{
+  "name": "devly/gtm-inject",
+  "description": "A simple WordPress plugin for inject Google Tag Manager code snippets.",
+  "type": "wordpress-muplugin",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Valentin Jebelev",
+      "email": "vala.jebelev@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.1"
+  },
+  "require-dev": {
+    "dealerdirect/phpcodesniffer-composer-installer": "^0.7.1",
+    "squizlabs/php_codesniffer": "^3.6",
+    "slevomat/coding-standard": "^7.0"
+  },
+  "scripts": {
+    "lint": "@php ./vendor/squizlabs/php_codesniffer/bin/phpcs",
+    "fix": "@php ./vendor/squizlabs/php_codesniffer/bin/phpcbf"
+  },
+  "config": {
+    "sort-packages": true
+  }
+}
